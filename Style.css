@@ -1,0 +1,89 @@
+.navbar-brand{
+    font-weight: bolder;
+    margin-left: 30px;
+    color: rgb(230, 143, 13) !important;
+    margin-right: 30px;
+}
+
+body{
+    background-color: rgb(107, 86, 56);
+}
+
+.game-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.winBox {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    background: #4C9654;
+    border-radius: 10px;
+    margin:  15px auto;
+    padding: 15px;
+}
+
+.drawBox {
+    height: 100px;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    margin:  15px auto;
+    padding: 15px;
+    background: #035B0C;
+    border-radius: 10px;
+}
+
+button {
+    background-color: Transparent;
+    border-color: transparent;
+    width: 5%;   
+    height: 100px;
+}
+
+.chosen {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+}
+
+.used{
+    display: flex;
+    flex-direction: column;    
+}
+
+.user-tool{
+    align-self: center;
+    width: 220px;
+    height: 200px;
+}
+
+.user-tool img{
+    width: 40%;
+}
+
+.Versus-Reset img {
+    width: 50px;
+    transform: translatey(350%)
+}
+
+.Versus-Reset {
+    margin: auto 50px;
+    width: 300px
+}
+
+.Versus-Reset h1{
+    font-size: 144px;
+}
+.user-choice{
+    margin: auto 5% 0 0;
+}
+.Com-Choice{
+    margin: auto 0 0 5%;
+}
+
+.refresh{
+    cursor: pointer;
+}
